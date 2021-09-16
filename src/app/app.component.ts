@@ -8,8 +8,4 @@ import { Post } from './posts/model/post.model';
 })
 export class AppComponent {
   title = 'frontend';
-  storedPosts: Post[] = [];
-  onPostAdded(post: Post) {
-    this.storedPosts.push(post);
-  }
 }
